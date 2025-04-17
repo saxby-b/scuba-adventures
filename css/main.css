@@ -96,6 +96,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column wrap;
 }
 /*Header Styles*/
 header {
@@ -123,6 +124,14 @@ ul.navigation li {
   width: 100%;
   list-style-type: none;
 
+}
+/*About Section */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 100%;
 }
 
 /* ==========================================================================
