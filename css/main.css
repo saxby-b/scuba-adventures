@@ -116,7 +116,6 @@ ul.navigation {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0;
   margin: 0;
 }
 
@@ -124,6 +123,15 @@ ul.navigation li {
   width: 100%;
   list-style-type: none;
 
+}
+/** Main Section **/
+/* Hero Image Section */
+.hero-image {
+  background: url("../img/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
 }
 /*About Section */
 #about {
