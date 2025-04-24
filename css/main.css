@@ -103,9 +103,25 @@ header {
   width: 100%;
 }
 
+.header-content {
+  background-color: #cfe9fa;
+  width: 100%;
+}
+
+
 h1 {
   width: 100%;
   text-align: center;
+}
+
+.header-divider {
+  border-bottom: 5px solid #000;
+  width: 100%;
+}
+
+.nav-content {
+  background-color: #d1dbfa;
+  width: 100%;
 }
 nav {
   width: 100%;
@@ -122,7 +138,6 @@ ul.navigation {
 ul.navigation li {
   width: 100%;
   list-style-type: none;
-
 }
 /** Main Section **/
 /* Hero Image Section */
@@ -330,4 +345,3 @@ ul.navigation li {
     page-break-after: avoid;
   }
 }
-
