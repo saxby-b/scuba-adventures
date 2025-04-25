@@ -140,6 +140,10 @@ ul.navigation li {
   list-style-type: none;
 }
 /** Main Section **/
+ p {
+  width: 80%;
+  text-align: center;
+ }
 /* Hero Image Section */
 .hero-image {
   background: url("../img/hero-img.jpg");
@@ -155,6 +159,10 @@ ul.navigation li {
   align-items: center;
   flex-flow: column wrap;
   width: 100%;
+}
+
+h2.about {
+  width: 90%;
 }
 
 /*Footer Section */
