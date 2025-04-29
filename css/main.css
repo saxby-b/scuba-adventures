@@ -167,6 +167,12 @@ ul.navigation li a:visited {
   width: 100%;
   min-height: 400px;
 }
+
+/*Aside Section */
+aside {
+  background-color: #b3ccff;
+  padding-bottom: 30px;
+}
 /*About Section */
 #about {
   display: flex;
