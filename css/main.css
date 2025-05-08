@@ -192,6 +192,21 @@ h2.about {
   width: 450px;
 }
 
+/*About Section */
+#about {
+  background: url("../img/about.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#about p {
+  background: #9494b8;
+  border: 1px solid #fff;
+  border-radius: 20%;
+  padding: 20px;
+  color: #fff;
+
+}
 /*Footer Section */
 .social ul {
   display: flex;
