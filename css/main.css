@@ -195,12 +195,28 @@ aside {
 }
 
 #about p {
-  background: #9494b8;
+ /** background: #9494b8;
   border: 1px solid #47476b;
   border-radius: 15%;
-  padding: 20px;
+  padding: 20px; */
   color: #fff;
 
+}
+/*Sign Up Section */
+#sign-up {
+  background: #e6eeff;
+  color: #8c8c8c;
+}
+
+#sign-up h2 {
+  border: 1px solid #8c8c8c;
+  padding: 10px;
+}
+
+#sign-up .divider {
+  background: #00184d;
+  width: 100%;
+  height: 2px;
 }
 /* Adventure Section */
 .coral-reef {
