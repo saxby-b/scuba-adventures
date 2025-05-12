@@ -332,8 +332,27 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+
+  /*Aside Section */
+  aside {
+    padding: 40px 0;
+  }
+  aside .content-wrapper { 
+    flex-flow: row wrap;
+  }
+  aside h2 {
+    width: 40%;
+    padding-right: 60px;
+    margin-top: 0;
+  }
+  aside p {
+    width: 40%;
+  }
+  aside form {
+    width: 80%;
+    text-align: right;
+  }
 }
 
 @media print,
