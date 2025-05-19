@@ -226,9 +226,20 @@ aside {
 
 
 /*Footer Section */
-.social ul {
+footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #dddeed;
+}
+
+.social h3 {
+  text-align: center;
+}
+.social ul {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   padding-left: 0;
   margin: 0;
