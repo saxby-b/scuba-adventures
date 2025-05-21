@@ -157,8 +157,8 @@ ul.navigation li a:visited {
 
 /** Main Section **/
  p {
-  width: 80%;
- /* text-align: center;*/
+  width: 90%;
+  text-align: center;
  }
 /* Hero Image Section */
 .hero-image {
@@ -223,14 +223,18 @@ aside {
 /* Adventure Section */
 #adventure h2 {
   width: 100%;
+  text-align: center;
 }
 
 .coral-reef {
-  height: 450px;
-  width: 100%;
+  height: 250px;
   background-size: cover;
+  border: 10px solid lightblue;
 }
-
+#adventure p {
+  margin: 20px;
+  border: 5px solid lavenderblush;
+}
 
 /*Footer Section */
 footer {
