@@ -134,6 +134,7 @@ ul.navigation {
   align-items: center;
   width: 100%;
   margin: 0;
+  padding-left: 5px
 }
 
 ul.navigation li {
@@ -157,7 +158,7 @@ ul.navigation li a:visited {
 /** Main Section **/
  p {
   width: 80%;
-  text-align: center;
+ /* text-align: center;*/
  }
 /* Hero Image Section */
 .hero-image {
@@ -200,6 +201,7 @@ aside {
   border-radius: 15%;
   padding: 20px; */
   color: #fff;
+  text-align: center;
 
 }
 /*Sign Up Section */
@@ -219,9 +221,14 @@ aside {
   height: 2px;
 }
 /* Adventure Section */
+#adventure h2 {
+  width: 100%;
+}
+
 .coral-reef {
   height: 450px;
-  width: 450px;
+  width: 100%;
+  background-size: cover;
 }
 
 
