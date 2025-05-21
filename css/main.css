@@ -221,6 +221,25 @@ aside {
   height: 2px;
 }
 /* Adventure Section */
+/*#adventure {
+  position: relative;
+  overflow: hidden;
+}
+#adventure .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  transform: translate3d(-1620px, 0px, 0px);
+  transition: 0.25s;
+  width: 2025px;
+}
+
+.section {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  width: 375px;
+  margin: 35px;
+} */
 #adventure h2 {
   width: 100%;
   text-align: center;
