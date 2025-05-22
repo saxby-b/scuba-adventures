@@ -240,6 +240,7 @@ aside {
   width: 375px;
   margin: 35px;
 } */
+
 #adventure h2 {
   width: 100%;
   text-align: center;
@@ -255,6 +256,9 @@ aside {
   border: 5px solid lavenderblush;
 }
 
+.hide {
+  display: none;
+}
 /*Footer Section */
 footer {
   display: flex;
