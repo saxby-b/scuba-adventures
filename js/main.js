@@ -15,15 +15,49 @@ const change = function () {
     section1.classList.add("hide");
     section2.classList.remove("hide");
 
+
 }
-//adventure.classList.add("hide");
+
+/*const cycle = function () {
+    if (!section1.contains("hide")) {
+        section1.classList.add("hide");
+        section2.classList.remove("hide")
+    } else if (!section2.contains("hide")) {
+        section2.classList.add("hide");
+        section3.classList.remove("hide");
+    } else if (!section3.contains("hide")) {
+        section3.classList.add("hide");
+        section4.classList.remove("hide");
+    } else if (!section4.classList.contains("hide")) {
+        section4.classList.add("hide");
+        section1.classList.remove("hide");
+    }
+} */
+
 next.addEventListener("click", function () {
+     if (!section1.classList.contains("hide")) {
+        section1.classList.add("hide");
+        section2.classList.remove("hide")
+    } else if (!section2.classList.contains("hide")) {
+        section2.classList.add("hide");
+        section3.classList.remove("hide");
+    } else if (!section3.classList.contains("hide")) {
+        section3.classList.add("hide");
+        section4.classList.remove("hide");
+    } else if (!section4.classList.contains("hide")) {
+        section4.classList.add("hide");
+        section1.classList.remove("hide");
+    }
+});
+
+//adventure.classList.add("hide");
+/*next.addEventListener("click", function () {
    section1.classList.add("hide");
    section2.classList.remove("hide");
 
    
 
-})
+}) */
 
 /*const change = function () {
      if (!section1.classList.contains("hide")) {
