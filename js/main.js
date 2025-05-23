@@ -7,7 +7,7 @@ const section1 = document.querySelector(".section1");
 const section2 = document.querySelector(".section2");
 const section3 = document.querySelector(".section3");
 const section4 = document.querySelector(".section4");
-const next = document.querySelector(".next");
+const arrows = document.querySelector(".arrows");
 
 const sectionArray = [section1, section2, section3, section4];
 
@@ -34,7 +34,7 @@ const change = function () {
     }
 } */
 
-next.addEventListener("click", function () {
+arrows.addEventListener("click", function () {
      if (!section1.classList.contains("hide")) {
         section1.classList.add("hide");
         section2.classList.remove("hide")
