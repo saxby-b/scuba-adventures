@@ -14,11 +14,9 @@ const arrows = document.querySelector(".arrows");
 const sectionArray = [section1, section2, section3, section4];
 
 const change = function () {
-    section1.classList.add("hide");
-    section2.classList.remove("hide");
-
-
-}
+  section1.classList.add("hide");
+  section2.classList.remove("hide");
+};
 
 /*const cycle = function () {
     if (!section1.contains("hide")) {
@@ -37,19 +35,35 @@ const change = function () {
 } */
 
 right.addEventListener("click", function () {
-     if (!section1.classList.contains("hide")) {
-        section1.classList.add("hide");
-        section2.classList.remove("hide")
-    } else if (!section2.classList.contains("hide")) {
-        section2.classList.add("hide");
-        section3.classList.remove("hide");
-    } else if (!section3.classList.contains("hide")) {
-        section3.classList.add("hide");
-        section4.classList.remove("hide");
-    } else if (!section4.classList.contains("hide")) {
-        section4.classList.add("hide");
-        section1.classList.remove("hide");
-    }
+  if (!section1.classList.contains("hide")) {
+    section1.classList.add("hide");
+    section2.classList.remove("hide");
+  } else if (!section2.classList.contains("hide")) {
+    section2.classList.add("hide");
+    section3.classList.remove("hide");
+  } else if (!section3.classList.contains("hide")) {
+    section3.classList.add("hide");
+    section4.classList.remove("hide");
+  } else if (!section4.classList.contains("hide")) {
+    section4.classList.add("hide");
+    section1.classList.remove("hide");
+  }
+});
+
+left.addEventListener("click", function () {
+  if (!section1.classList.contains("hide")) {
+    section1.classList.add("hide");
+    section4.classList.remove("hide");
+  } else if (!section4.classList.contains("hide")) {
+    section4.classList.add("hide");
+    section3.classList.remove("hide");
+  } else if (!section3.classList.contains("hide")) {
+    section3.classList.add("hide");
+    section2.classList.remove("hide");
+  } else if (!section2.classList.contains("hide")) {
+    section2.classList.add("hide");
+    section1.classList.remove("hide");
+  }
 });
 
 //adventure.classList.add("hide");
@@ -100,7 +114,6 @@ right.addEventListener("click", function () {
     section3.classList.add("hide");
     section4.classList.add("hide");
 } */
-
 
 /*const hide = function () {
     this.classList.add("hide");
