@@ -2,6 +2,8 @@ const year = document.querySelector("span");
 const email = document.querySelector(".email");
 const submit = document.querySelector(".submit");
 const adventure = document.querySelector("#adventure");
+const left = document.querySelector(".left");
+const right = document.querySelector(".right");
 
 const section1 = document.querySelector(".section1");
 const section2 = document.querySelector(".section2");
@@ -34,7 +36,7 @@ const change = function () {
     }
 } */
 
-arrows.addEventListener("click", function () {
+right.addEventListener("click", function () {
      if (!section1.classList.contains("hide")) {
         section1.classList.add("hide");
         section2.classList.remove("hide")
