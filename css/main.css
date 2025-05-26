@@ -391,6 +391,14 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
+  /*Header Styles */
+
+  /*Navigation Styles */
+
+  ul.navigation li {
+    padding-left: 60px;
+  }
+
   /*Aside Section */
   aside {
     padding: 40px 0;
@@ -405,11 +413,38 @@ footer {
   }
   aside p {
     width: 40%;
+    font-size: 20px;
   }
   aside form {
     width: 80%;
     text-align: right;
   }
+
+ /*Might move to main styles*/
+  .submit {
+    margin-left: 10px;
+    background: lightblue;
+    border-radius: 25%;
+    color: grey;
+  }
+
+  /*About Styles*/
+  .join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+#about {
+  width: 50%;
+}
+
+/*Sign-up Styles */
+
+#sign-up {
+  width: 50%;
+  align-self: stretch;
+}
 }
 
 @media print,
