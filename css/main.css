@@ -445,6 +445,25 @@ footer {
   width: 50%;
   align-self: stretch;
 }
+
+/*Adventure Styles */
+.section {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.section1 {
+  width: 30%;
+  margin-right: 20px;
+
+}
+.section2 {
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+
+}
 }
 
 @media print,
