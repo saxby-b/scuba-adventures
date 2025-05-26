@@ -462,6 +462,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   width: 30%;
+  padding-left: 60px;
 
 }
 }
