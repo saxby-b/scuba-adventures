@@ -240,6 +240,11 @@ aside {
   width: 375px;
   margin: 35px;
 } */
+.section2 {
+  width: 90%;
+  margin: 0 20px 20px 20px;
+}
+
 
 #adventure h2 {
   width: 100%;
@@ -252,8 +257,9 @@ aside {
   border: 10px solid lightblue;
 }
 #adventure p {
-  margin: 20px;
+ /* margin: 20px; */
   border: 5px solid lavenderblush;
+  /* width: 100%;*/
 }
 
 .arrows {
