@@ -470,7 +470,21 @@ footer {
   flex-flow: column wrap;
   width: 30%;
   padding-left: 60px;
+  align-self: stretch;
 
+}
+.section3 {
+  padding-left: 60px;
+  align-self: stretch;
+   flex-flow: column wrap;
+}
+
+.section3 p, .section4 p {
+  width: 60%;
+}
+
+.section4 {
+  padding-left: 60px;
 }
 }
 
