@@ -108,7 +108,6 @@ header {
   width: 100%;
 }
 
-
 h1 {
   width: 100%;
   text-align: center;
@@ -134,7 +133,7 @@ ul.navigation {
   align-items: center;
   width: 100%;
   margin: 0;
-  padding-left: 5px
+  padding-left: 5px;
 }
 
 ul.navigation li {
@@ -146,7 +145,6 @@ ul.navigation li {
 ul.navigation li a:link {
   color: #737373;
   text-decoration: underline solid 1px #737373;
-
 }
 
 ul.navigation li a:visited {
@@ -154,12 +152,11 @@ ul.navigation li a:visited {
   text-decoration: underline solid 1px #737373;
 }
 
-
 /** Main Section **/
- p {
+p {
   width: 90%;
   text-align: center;
- }
+}
 /* Hero Image Section */
 .hero-image {
   background: url("../img/hero-img.jpg");
@@ -196,13 +193,12 @@ aside {
 }
 
 #about p {
- /** background: #9494b8;
+  /** background: #9494b8;
   border: 1px solid #47476b;
   border-radius: 15%;
   padding: 20px; */
   color: #fff;
   text-align: center;
-
 }
 /*Sign Up Section */
 #sign-up {
@@ -245,7 +241,6 @@ aside {
   margin: 0 20px 20px 20px;
 }
 
-
 #adventure h2 {
   width: 100%;
   text-align: center;
@@ -257,7 +252,7 @@ aside {
   border: 10px solid lightblue;
 }
 #adventure p {
- /* margin: 20px; */
+  /* margin: 20px; */
   border: 5px solid lavenderblush;
   /* width: 100%;*/
 }
@@ -272,7 +267,6 @@ aside {
 .arrows i {
   width: 5px;
   height: 7px;
-
 }
 .hide {
   display: none;
@@ -396,7 +390,6 @@ footer {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-
   /*Header Styles */
 
   /*Navigation Styles */
@@ -409,7 +402,7 @@ footer {
   aside {
     padding: 40px 0;
   }
-  aside .content-wrapper { 
+  aside .content-wrapper {
     flex-flow: row wrap;
   }
   aside h2 {
@@ -426,7 +419,7 @@ footer {
     text-align: right;
   }
 
- /*Might move to main styles*/
+  /*Might move to main styles*/
   .submit {
     margin-left: 10px;
     background: lightblue;
@@ -441,51 +434,85 @@ footer {
     align-items: center;
     flex-direction: row;
   }
-#about {
-  width: 50%;
+  #about {
+    width: 50%;
+  }
+
+  /*Sign-up Styles */
+
+  #sign-up {
+    width: 50%;
+    align-self: stretch;
+  }
+
+  /*Adventure Styles */
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .section1 {
+    width: 30%;
+    margin-right: 20px;
+  }
+  .section2 {
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    padding-left: 60px;
+    align-self: stretch;
+  }
+  .section3 {
+    padding-left: 60px;
+    align-self: stretch;
+    flex-flow: column wrap;
+  }
+
+  .section3 p,
+  .section4 p {
+    width: 60%;
+  }
+
+  .section4 {
+    padding-left: 60px;
+  }
 }
 
-/*Sign-up Styles */
+/*Footer Styles */
 
-#sign-up {
-  width: 50%;
-  align-self: stretch;
-}
-
-/*Adventure Styles */
-.section {
-  width: 100%;
+/*.footer-content {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+} */
+
+.footer-content .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.footer-content .content h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-content .content address {
+  display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.section1 {
-  width: 30%;
-  margin-right: 20px;
-
-}
-.section2 {
-  display: flex;
-  flex-flow: column wrap;
-  width: 30%;
-  padding-left: 60px;
-  align-self: stretch;
-
-}
-.section3 {
-  padding-left: 60px;
-  align-self: stretch;
-   flex-flow: column wrap;
+  width: 100%;
 }
 
-.section3 p, .section4 p {
-  width: 60%;
+.footer-content .content address a {
+  width: 50%;
 }
 
-.section4 {
-  padding-left: 60px;
-}
+.footer-content .content address p {
+  width: 50%;
 }
 
 @media print,
