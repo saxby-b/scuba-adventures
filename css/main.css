@@ -236,6 +236,13 @@ aside {
   width: 375px;
   margin: 35px;
 } */
+
+.section1, .section2, .section3, .section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
 .section2 {
   width: 90%;
   margin: 0 20px 20px 20px;
@@ -478,7 +485,7 @@ footer {
   .section4 {
     padding-left: 60px;
   }
-}
+} 
 
 /*Footer Styles */
 
@@ -487,7 +494,7 @@ footer {
   flex-flow: row wrap;
 } */
 
-.footer-content .content {
+/*.footer-content .content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -513,7 +520,8 @@ footer {
 
 .footer-content .content address p {
   width: 50%;
-}
+  padding-right: 40px;
+} */
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
