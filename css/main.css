@@ -237,7 +237,10 @@ aside {
   margin: 35px;
 } */
 
-.section1, .section2, .section3, .section4 {
+.section1,
+.section2,
+.section3,
+.section4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,8 +288,19 @@ footer {
   align-items: center;
   width: 100%;
   background-color: #dddeed;
+  flex-flow: column wrap;
+}
+.footer-content {
+  width: 100%;
+  flex-flow: column wrap;
 }
 
+.content,
+.social,
+.origin {
+  width: 100%;
+  text-align: center;
+}
 .social h3 {
   text-align: center;
 }
@@ -396,7 +410,7 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
+@media (min-device-width: 768px) {
   /*Header Styles */
 
   /*Navigation Styles */
@@ -485,43 +499,43 @@ footer {
   .section4 {
     padding-left: 60px;
   }
-} 
 
-/*Footer Styles */
+  /*Footer Styles */
 
-/*.footer-content {
-  display: flex;
-  flex-flow: row wrap;
-} */
+  .footer-content {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
-/*.footer-content .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-flow: row wrap;
+  .footer-content .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+  }
+
+  .footer-content .content h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-content .content address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-content .content address a {
+    width: 50%;
+  }
+
+  .footer-content .content address p {
+    width: 50%;
+    padding-right: 40px;
+  }
 }
-
-.footer-content .content h3 {
-  width: 100%;
-  text-align: center;
-}
-
-.footer-content .content address {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
-.footer-content .content address a {
-  width: 50%;
-}
-
-.footer-content .content address p {
-  width: 50%;
-  padding-right: 40px;
-} */
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
