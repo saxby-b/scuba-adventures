@@ -104,7 +104,8 @@ header {
 }
 
 .header-content {
-  background-color: #cfe9fa;
+/*  background-color: #cfe9fa; */
+background-color: #B4CDED;
   width: 100%;
 }
 
@@ -119,7 +120,8 @@ h1 {
 }
 /* Navigation Styles **/
 .nav-content {
-  background-color: #d1dbfa;
+ /* background-color: #d1dbfa; */
+ background-color: #344966;
   width: 100%;
   padding: 20px 0;
 }
@@ -143,13 +145,17 @@ ul.navigation li {
 }
 
 ul.navigation li a:link {
-  color: #737373;
+color: #F0F4EF;
+ 
+  /* color: #737373; */
+
   text-decoration: underline solid 1px #737373;
 }
 
 ul.navigation li a:visited {
-  color: #737373;
-  text-decoration: underline solid 1px #737373;
+ /* color: #737373; */
+ color: #F0F4EF;
+  text-decoration: underline solid 1px #F0F4EF;
 }
 
 /** Main Section **/
