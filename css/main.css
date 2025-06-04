@@ -174,7 +174,8 @@ p {
 
 /*Aside Section */
 aside {
-  background-color: #b3ccff;
+ /*  background-color: #b3ccff; */
+ background: #B4CDED;
   padding-bottom: 30px;
 }
 /*About Section */
@@ -208,7 +209,8 @@ aside {
 }
 /*Sign Up Section */
 #sign-up {
-  background: #e6eeff;
+ /* background: #e6eeff; */
+ background: #F0F4EF;
   color: #8c8c8c;
 }
 
