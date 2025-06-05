@@ -175,9 +175,16 @@ p {
 /*Aside Section */
 aside {
  /*  background-color: #b3ccff; */
- background: #B4CDED;
+ background-color: #B4CDED;
   padding-bottom: 30px;
 }
+
+  .submit {
+    margin-left: 10px;
+    background: #0D1821;
+    border-radius: 25%;
+    color: #F0F4EF;
+  }
 /*About Section */
 #about {
   background: url("../img/about.jpg");
@@ -448,13 +455,7 @@ footer {
     text-align: right;
   }
 
-  /*Might move to main styles*/
-  .submit {
-    margin-left: 10px;
-    background: lightblue;
-    border-radius: 25%;
-    color: grey;
-  }
+  
 
   /*About Styles*/
   .join {
