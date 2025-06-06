@@ -302,7 +302,9 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #dddeed;
+  /*background-color: #dddeed; */
+  background-color: #B4CDED;
+  color: #0D1821;
   flex-flow: column wrap;
 }
 .footer-content {
@@ -332,7 +334,9 @@ footer {
   padding-right: 20px;
   width: 60%;
 }
-
+.social ul li i {
+  color: #F0F4EF;
+}
 .origin {
   width: 100%;
 }
