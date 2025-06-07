@@ -149,7 +149,7 @@ color: #F0F4EF;
  
   /* color: #737373; */
 
-  text-decoration: underline solid 1px #737373;
+  text-decoration: underline solid 1px #F0F4EF/*#737373*/;
 }
 
 ul.navigation li a:visited {
