@@ -480,7 +480,7 @@ footer {
   }
 
   /*Adventure Styles */
-  .section {
+ /* .section {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -511,8 +511,10 @@ footer {
 
   .section4 {
     padding-left: 60px;
-  }
-
+  } */
+   .section1, .section2, .section3, .section4 {
+    width: 100%;
+   }
   /*Footer Styles */
 
   .footer-content {
