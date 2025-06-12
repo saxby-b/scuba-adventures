@@ -515,6 +515,9 @@ footer {
    .section1, .section2, .section3, .section4 {
     width: 100%;
    }
+   .coral-reef {
+    height: 350px;
+   }
   /*Footer Styles */
 
   .footer-content {
