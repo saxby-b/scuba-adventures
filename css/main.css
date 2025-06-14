@@ -318,6 +318,10 @@ footer {
   width: 100%;
   text-align: center;
 }
+
+footer a {
+  color: #F0F4EF;
+}
 .social h3 {
   text-align: center;
 }
