@@ -521,6 +521,11 @@ footer a {
    }
    .coral-reef {
     height: 350px;
+    width: 650px;
+   }
+
+   #adventure p {
+    width: 60%;
    }
   /*Footer Styles */
 
