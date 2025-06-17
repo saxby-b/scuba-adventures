@@ -518,6 +518,7 @@ footer a {
   } */
    .section1, .section2, .section3, .section4 {
     width: 100%;
+    padding-bottom: 60px;
    }
    .coral-reef {
     height: 350px;
