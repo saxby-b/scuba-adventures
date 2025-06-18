@@ -275,10 +275,11 @@ aside {
   height: 250px;
   background-size: cover;
   border: 10px solid #B4CDED;
+  /**maybe make width: 250px; */
 }
 #adventure p {
   /* margin: 20px; */
-  border: 5px solid lavenderblush;
+  border: 5px solid #d6deba;
   /* width: 100%;*/
 }
 
@@ -453,6 +454,7 @@ footer a {
     width: 40%;
     padding-right: 60px;
     margin-top: 0;
+    margin-bottom: 0;
   }
   aside p {
     width: 40%;
