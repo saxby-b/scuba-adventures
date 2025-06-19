@@ -257,8 +257,8 @@ aside {
 .section3,
 .section4 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-flow: column wrap;
 }
 .section2 {
@@ -274,7 +274,7 @@ aside {
 .coral-reef {
   height: 250px;
   background-size: cover;
-  border: 10px solid #B4CDED;
+  border: 5px solid #B4CDED;
   /**maybe make width: 250px; */
 }
 #adventure p {
