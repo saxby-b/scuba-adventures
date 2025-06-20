@@ -257,8 +257,8 @@ aside {
 .section3,
 .section4 {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-flow: column wrap;
 }
 .section2 {
@@ -519,7 +519,7 @@ footer a {
     padding-left: 60px;
   } */
    .section1, .section2, .section3, .section4 {
-    width: 100%;
+    /*width: 80%;*/
     padding-bottom: 60px;
    }
    .coral-reef {
