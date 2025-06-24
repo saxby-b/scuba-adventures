@@ -312,7 +312,9 @@ footer {
   width: 100%;
   flex-flow: column wrap;
 }
-
+.footer-content .content address p {
+  font-style: normal;
+}
 .content,
 .social,
 .origin {
@@ -468,7 +470,7 @@ footer a {
   
 
   /*About Styles*/
-  .join {
+  .together {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -567,7 +569,30 @@ footer a {
     padding-right: 40px;
   }
 }
+@media (min-device-width: 1200px) {
+ /* ul.navigation {
+    justify-content: space-around;
+  } */
+   /*.together {
+    display: block;
+   } */
 
+  .join {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+  }
+   #about, #sign-up, #adventure {
+    width: 33.3%;
+   }
+
+   #adventure .coral-reef {
+    width: 250px;
+   }
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
