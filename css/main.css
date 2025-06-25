@@ -573,10 +573,13 @@ footer a {
  /* ul.navigation {
     justify-content: space-around;
   } */
-   /*.together {
-    display: block;
-   } */
+   .together {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+   }
 
+  
   .join {
     display: flex;
     justify-content: flex-start;
@@ -585,13 +588,17 @@ footer a {
     width: 100%;
 
   }
-   #about, #sign-up, #adventure {
-    width: 33.3%;
-   }
+ /*  #about, #sign-up, #adventure {
+    width: 33.33%;
+   } 
 
    #adventure .coral-reef {
     width: 250px;
    }
+
+   #adventure {
+    order: 2;
+   } */
 }
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
