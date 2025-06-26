@@ -488,7 +488,7 @@ footer a {
   }
 
   /*Adventure Styles */
- /* .section {
+ .section {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -519,9 +519,9 @@ footer a {
 
   .section4 {
     padding-left: 60px;
-  } */
-   .section1, .section2, .section3, .section4 {
-    /*width: 80%;*/
+  } 
+  /* .section1, .section2, .section3, .section4 {
+    /*width: 80%;
     padding-bottom: 60px;
    }
    .coral-reef {
@@ -532,7 +532,7 @@ footer a {
    #adventure p {
     width: 60%;
     margin-top: 40px;
-   }
+   } */
   /*Footer Styles */
 
   .footer-content {
@@ -579,8 +579,39 @@ footer a {
     width: 100%;
    }
 
+   #adventure {
+    width: 100%;
+
+   }
+
+ /*  #adventure .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+   }
+
+   .section1, .section2, .section3, .section4 {
+    width: 40%;
+   } */
+
+   .arrows {
+    display: none;
+   }
+
+   .hide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: column wrap;
+
+   }
+
+   
+
   
-  .join {
+ /* .join {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -599,7 +630,7 @@ footer a {
    #adventure {
     order: 2;
    } */
-}
+} 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
