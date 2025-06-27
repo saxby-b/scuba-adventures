@@ -584,17 +584,26 @@ footer a {
 
    }
 
- /*  #adventure .section {
+   /*#adventure .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+ 
+   } */
+
+   #adventure .section {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     width: 100%;
    }
 
-   .section1, .section2, .section3, .section4 {
-    width: 40%;
-   } */
+    .section1, .section2, .section3, .section4 {
+    width: 45%;
+   } 
 
    .arrows {
     display: none;
@@ -602,9 +611,6 @@ footer a {
 
    .hide{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: column wrap;
 
    }
 
