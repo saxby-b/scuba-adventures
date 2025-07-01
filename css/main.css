@@ -600,6 +600,10 @@ footer a {
     width: 100%;
    }
 
+   #adventure h2 {
+    margin-bottom: 60px;
+   }
+
     .section1, .section2, .section3, .section4 {
     width: 45%;
    } 
