@@ -1,0 +1,1 @@
+Scuba Adventures is a website made for scuba diving companies. It that features an About Section, a Sign Up section, and a More Adventures Section. The layout of Scuba Adventures allows for the perfect balance of space for inportant text and amazing graphics.
