@@ -92,7 +92,7 @@ body {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -507,9 +507,10 @@ footer a {
     flex-flow: column wrap;
     width: 30%;
     padding-left: 60px;
-    align-self: stretch;
+    align-self: flex-start;
   }
   .section3 {
+    width: 30%;
     padding-left: 60px;
     align-self: stretch;
     flex-flow: column wrap;
