@@ -92,7 +92,7 @@ body {
 }
 
 .content-wrapper {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,6 +101,9 @@ body {
 /** Header Styles **/
 header {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-content {
