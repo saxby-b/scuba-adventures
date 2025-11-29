@@ -107,8 +107,8 @@ header {
 }
 
 .header-content {
-/*  background-color: #cfe9fa; */
-background-color: #B4CDED;
+  /*  background-color: #cfe9fa; */
+  background-color: #b4cded;
   width: 100%;
 }
 
@@ -123,8 +123,8 @@ h1 {
 }
 /* Navigation Styles **/
 .nav-content {
- /* background-color: #d1dbfa; */
- background-color: #344966;
+  /* background-color: #d1dbfa; */
+  background-color: #344966;
   width: 100%;
   padding: 20px 0;
 }
@@ -148,17 +148,17 @@ ul.navigation li {
 }
 
 ul.navigation li a:link {
-color: #F0F4EF;
- 
+  color: #f0f4ef;
+
   /* color: #737373; */
 
-  text-decoration: underline solid 1px #F0F4EF/*#737373*/;
+  text-decoration: underline solid 1px #f0f4ef /*#737373*/;
 }
 
 ul.navigation li a:visited {
- /* color: #737373; */
- color: #F0F4EF;
-  text-decoration: underline solid 1px #F0F4EF;
+  /* color: #737373; */
+  color: #f0f4ef;
+  text-decoration: underline solid 1px #f0f4ef;
 }
 
 /** Main Section **/
@@ -177,17 +177,17 @@ p {
 
 /*Aside Section */
 aside {
- /*  background-color: #b3ccff; */
- background-color: #B4CDED;
+  /*  background-color: #b3ccff; */
+  background-color: #b4cded;
   padding-bottom: 30px;
 }
 
-  .submit {
-    margin-left: 10px;
-    background: #344966;
-    border-radius: 25%;
-    color: #F0F4EF;
-  }
+.submit {
+  margin-left: 10px;
+  background: #344966;
+  border-radius: 25%;
+  color: #f0f4ef;
+}
 /*About Section */
 #about {
   background: url("../img/about.jpg");
@@ -219,8 +219,8 @@ aside {
 }
 /*Sign Up Section */
 #sign-up {
- /* background: #e6eeff; */
- background: #F0F4EF;
+  /* background: #e6eeff; */
+  background: #f0f4ef;
   color: #8c8c8c;
 }
 
@@ -277,7 +277,7 @@ aside {
 .coral-reef {
   height: 250px;
   background-size: cover;
-  border: 5px solid #B4CDED;
+  border: 5px solid #b4cded;
   /**maybe make width: 250px; */
 }
 #adventure p {
@@ -307,7 +307,7 @@ footer {
   align-items: center;
   width: 100%;
   /*background-color: #dddeed; */
-  background-color: #B4CDED;
+  background-color: #b4cded;
   color: #344966;
   flex-flow: column wrap;
 }
@@ -326,7 +326,7 @@ footer {
 }
 
 footer a {
-  color: #F0F4EF;
+  color: #f0f4ef;
 }
 .social h3 {
   text-align: center;
@@ -345,7 +345,7 @@ footer a {
   width: 60%;
 }
 .social ul li i {
-  color: #F0F4EF;
+  color: #f0f4ef;
 }
 .origin {
   width: 100%;
@@ -470,8 +470,6 @@ footer a {
     text-align: right;
   }
 
-  
-
   /*About Styles*/
   .together {
     display: flex;
@@ -491,7 +489,7 @@ footer a {
   }
 
   /*Adventure Styles */
- .section {
+  .section {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -523,7 +521,7 @@ footer a {
 
   .section4 {
     padding-left: 60px;
-  } 
+  }
   /* .section1, .section2, .section3, .section4 {
     /*width: 80%;
     padding-bottom: 60px;
@@ -574,20 +572,19 @@ footer a {
   }
 }
 @media (min-device-width: 1200px) {
- /*main section */
-   .together {
+  /*main section */
+  .together {
     margin-left: 0;
     padding-left: 0;
     width: 100%;
-   }
+  }
 
   /*adventure section*/
-   #adventure {
+  #adventure {
     width: 100%;
+  }
 
-   }
-
-   /*#adventure .content-wrapper {
+  /*#adventure .content-wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -596,45 +593,47 @@ footer a {
  
    } */
 
-   #adventure .section {
+  #adventure .section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     width: 100%;
-   }
+  }
 
-   #adventure h2 {
+  #adventure h2 {
     margin-bottom: 60px;
-   }
+  }
 
-    .section1, .section2, .section3, .section4 {
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
     width: 45%;
-   } 
+  }
 
-   .section1 p, .section2 p, .section3 p, .section4 p {
-     width: 60%;
-     margin-bottom: 60px;
-   }
+  .section1 p,
+  .section2 p,
+  .section3 p,
+  .section4 p {
+    width: 60%;
+    margin-bottom: 60px;
+  }
 
-   .section3 {
+  .section3 {
     align-self: flex-start;
     padding-left: 0;
-   }
+  }
 
-   .arrows {
+  .arrows {
     display: none;
-   }
+  }
 
-   .hide{
+  .hide {
     display: flex;
+  }
 
-   }
-
-   
-
-  
- /* .join {
+  /* .join {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -653,7 +652,7 @@ footer a {
    #adventure {
     order: 2;
    } */
-} 
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
