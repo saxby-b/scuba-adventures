@@ -20,7 +20,7 @@ year.innerText = y;
 
 
 right.addEventListener("click", function () {
- /* if (window.matchMedia("(min-width:768px)") ) {
+ /*if (window.matchMedia("(min-width:768px)") ) {
     section2.classList.remove("hide");
   }
   else if (window.matchMedia("(min-width: 768px)") & !section1.classList.contains("hide") & !section2.classList.contains("hide")) {
@@ -40,7 +40,7 @@ right.addEventListener("click", function () {
     section4.classList.add("hide");
     section1.classList.remove("hide");
   }
-});
+}); 
 
 left.addEventListener("click", function () {
   if (!section1.classList.contains("hide")) {
