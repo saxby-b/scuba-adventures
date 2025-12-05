@@ -1,5 +1,5 @@
 const year = document.querySelector("span");
-const email = document.querySelector(".email");
+/*const email = document.querySelector(".email");
 const submit = document.querySelector(".submit");
 const adventure = document.querySelector("#adventure");
 const left = document.querySelector(".left");
@@ -12,21 +12,21 @@ const section4 = document.querySelector(".section4");
 const arrows = document.querySelector(".arrows");
 const x = matchMedia("(min-width: 768px)");
 const w = matchMedia("(min-width: 1200px)")
-const stop = matchMedia("(max-width: 1199px)");
+const stop = matchMedia("(max-width: 1199px)"); */
 
 const d = new Date();
 const y = d.getFullYear();
 year.innerText = y;
 
 
-right.addEventListener("click", function () {
- /*if (window.matchMedia("(min-width:768px)") ) {
+/*right.addEventListener("click", function () {
+ if (window.matchMedia("(min-width:768px)") ) {
     section2.classList.remove("hide");
   }
   else if (window.matchMedia("(min-width: 768px)") & !section1.classList.contains("hide") & !section2.classList.contains("hide")) {
     section1.classList.add("hide");
     section3.classList.remove("hide");
-  } */
+  } 
   if (!section1.classList.contains("hide")) {
     section1.classList.add("hide");
     section2.classList.remove("hide");
