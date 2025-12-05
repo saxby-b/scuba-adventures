@@ -266,7 +266,7 @@ aside {
   width: 100%;
 }
 .section2 {
-  width: 90%;
+ /* width: 90%; */
   margin: 0 20px 20px 20px;
 }
 
@@ -490,6 +490,26 @@ footer a {
   }
 
   /*Adventure Styles */
+  #adventure .content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+    width: 100%;
+    row-gap: 5px;
+  }
+  .section1, .section2,  .section3, .section4 {
+    width: 35%;
+    
+  }
    /*.section {
     width: 100%;
     display: flex;
@@ -536,7 +556,7 @@ footer a {
    #adventure p {
     width: 60%;
     margin-top: 40px;
-   } */
+   } 
      #adventure .section {
     display: flex;
     justify-content: center;
