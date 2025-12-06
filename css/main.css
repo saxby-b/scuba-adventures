@@ -666,7 +666,7 @@ footer a {
   #adventure .section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: row wrap;
     width: 100%;
   }
@@ -679,7 +679,8 @@ footer a {
   .section2,
   .section3,
   .section4 {
-    width: 100%;
+    width: 30%;
+
   }
 
   .section1 p,
@@ -687,12 +688,16 @@ footer a {
   .section3 p,
   .section4 p {
     width: 60%;
-    margin-bottom: 60px;
+    margin-bottom: 0;
   }
 
   .section3 {
     align-self: flex-start;
     padding-left: 0;
+  }
+
+  .section4 p {
+    width: 100%;
   }
 
   .arrows {
