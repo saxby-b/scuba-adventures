@@ -504,11 +504,16 @@ footer a {
     flex-flow: row wrap;
     margin-bottom: 20px;
     width: 100%;
-    row-gap: 5px;
+    /*row-gap: 5px; */
   }
   .section1, .section2,  .section3, .section4 {
-    width: 35%;
+    width: 45%;
+    margin-bottom: 30px;
     
+  }
+
+  img.coral-reef {
+    width: 70%;
   }
    /*.section {
     width: 100%;
