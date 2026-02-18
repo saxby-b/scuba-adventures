@@ -107,7 +107,6 @@ header {
 }
 
 .header-content {
-  /*  background-color: #cfe9fa; */
   background-color: #b4cded;
   width: 100%;
 }
@@ -123,13 +122,12 @@ h1 {
 }
 /* Navigation Styles **/
 .nav-content {
-  /* background-color: #d1dbfa; */
   background-color: #344966;
   width: 100%;
   padding: 20px 0;
 }
 nav {
-  width: 100%;
+  width: 90%;
 }
 
 ul.navigation {
@@ -142,21 +140,18 @@ ul.navigation {
 }
 
 ul.navigation li {
-  width: 100%;
+  width: 50%;
+  text-align: center;
   list-style-type: none;
   font-weight: 700;
 }
 
 ul.navigation li a:link {
   color: #f0f4ef;
-
-  /* color: #737373; */
-
-  text-decoration: underline solid 1px #f0f4ef /*#737373*/;
+  text-decoration: underline solid 1px #f0f4ef;
 }
 
 ul.navigation li a:visited {
-  /* color: #737373; */
   color: #f0f4ef;
   text-decoration: underline solid 1px #f0f4ef;
 }
@@ -177,7 +172,6 @@ p {
 
 /*Aside Section */
 aside {
-  /*  background-color: #b3ccff; */
   background-color: #b4cded;
   padding-bottom: 30px;
 }
@@ -210,16 +204,11 @@ aside {
 }
 
 #about p {
-  /** background: #9494b8;
-  border: 1px solid #47476b;
-  border-radius: 15%;
-  padding: 20px; */
   color: #fff;
   text-align: center;
 }
 /*Sign Up Section */
 #sign-up {
-  /* background: #e6eeff; */
   background: #f0f4ef;
   color: #8c8c8c;
 }
@@ -235,26 +224,6 @@ aside {
   height: 2px;
 }
 /* Adventure Section */
-/*#adventure {
-  position: relative;
-  overflow: hidden;
-}
-#adventure .content-wrapper {
-  display: flex;
-  flex-direction: row;
-  transform: translate3d(-1620px, 0px, 0px);
-  transition: 0.25s;
-  width: 2025px;
-}
-
-.section {
-  position: relative;
-  min-height: 1px;
-  float: left;
-  width: 375px;
-  margin: 35px;
-} */
-
 .section1,
 .section2,
 .section3,
@@ -266,7 +235,6 @@ aside {
   width: 100%;
 }
 .section2 {
-  /* width: 90%; */
   margin: 0 20px 20px 20px;
   justify-self: center;
 }
@@ -280,12 +248,9 @@ aside {
   height: 250px;
   background-size: cover;
   border: 5px solid #b4cded;
-  /**maybe make width: 250px; */
 }
 #adventure p {
-  /* margin: 20px; */
   border: 5px solid #d6deba;
-  /* width: 100%;*/
   padding-bottom: 10px;
 }
 
@@ -309,7 +274,6 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  /*background-color: #dddeed; */
   background-color: #b4cded;
   color: #344966;
   flex-flow: column wrap;
@@ -506,8 +470,8 @@ footer a {
     flex-flow: row wrap;
     margin-bottom: 20px;
     width: 100%;
-    /*row-gap: 5px; */
   }
+
   .section1,
   .section2,
   .section3,
@@ -519,92 +483,7 @@ footer a {
   img.coral-reef {
     width: 70%;
   }
-  /*.section {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .section1 {
-    width: 100%;
-    margin-right: 20px;
-  }
-  .section2 {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-    padding-left: 60px;
-    align-self: flex-start;
-  }
-  .section3 {
-    width: 100%;
-    padding-left: 60px;
-    align-self: stretch;
-    flex-flow: column wrap;
-  }
 
-  .section3 p,
-  .section4 p {
-    width: 60%;
-  }
-
-  .section4 {
-    padding-left: 60px;
-    width: 100%;
-  }
-   .section1, .section2, .section3, .section4 {
-    /*width: 80%;
-    padding-bottom: 60px;
-   }
-   .coral-reef {
-    height: 350px;
-    width: 650px;
-   }
-
-   #adventure p {
-    width: 60%;
-    margin-top: 40px;
-   } 
-     #adventure .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
-  }
-
-  #adventure h2 {
-    margin-bottom: 60px;
-  }
-
-  .section1,
-  .section2,
-  .section3,
-  .section4 {
-    width: 100%;
-  }
-
-  .section1 p,
-  .section2 p,
-  .section3 p,
-  .section4 p {
-    width: 60%;
-    margin-bottom: 60px;
-  }
-
-  .section3 {
-    align-self: flex-start;
-    padding-left: 0;
-  }
-
-  .arrows {
-    display: none;
-  }
-
-  .hide {
-    display: flex;
-  }
   /*Footer Styles */
 
   .footer-content {
@@ -642,26 +521,17 @@ footer a {
   }
 }
 @media (min-device-width: 1200px) {
-  /*main section */
+  /*Main Section */
   .together {
     margin-left: 0;
     padding-left: 0;
     width: 100%;
   }
 
-  /*adventure section*/
+  /*Adventure Section*/
   #adventure {
     width: 100%;
   }
-
-  /*#adventure .content-wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    flex-flow: row wrap;
- 
-   } */
 
   #adventure .section {
     display: flex;
@@ -707,26 +577,6 @@ footer a {
   .hide {
     display: flex;
   }
-
-  /* .join {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-
-  }
- /*  #about, #sign-up, #adventure {
-    width: 33.33%;
-   } 
-
-   #adventure .coral-reef {
-    width: 250px;
-   }
-
-   #adventure {
-    order: 2;
-   } */
 }
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
